@@ -1,0 +1,20 @@
+.authNav {
+  display: flex;
+  gap: 15px;
+}
+
+.link {
+    color: rgb(3, 2, 2);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color .3s ease-in-out;
+
+    &:hover,
+    &:focus {
+      color: #1976d2;
+    }
+}
+
+.link.active {
+  color: #1976d2;
+}

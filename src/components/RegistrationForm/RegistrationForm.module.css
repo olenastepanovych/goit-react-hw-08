@@ -1,0 +1,32 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.button {
+  padding: 10px;
+  background-color: teal;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.error {
+  color: #d32f2f;
+  font-size: 14px;
+}
